@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Servicio de administracion de clientes SalesGuard">
+  <meta name="author" content="Equipo 1 - Ingenieria de software">
+  <meta name="copyright" content="Equipo 1 - Ingenieria de software - Año 2023 Pagina publicada bajo la licencia GPL-3.0">
+  <meta name="robots" content= "index, follow">
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="./assets/favicon.ico" sizes="16x16 24x24 36x36 48x48">
+  <link rel="stylesheet" type="text/css" href="style.css" >
+
+  <title>SalesGuard</title>
+</head>
+
+<body>
+<main>
+  <div id="main-logo"> 
+    <picture>
+      <img src="" alt="" width="px" height="px">
+    </picture>
+  </div>
+    
+  <h1>SalesGuard</h1>
+
+  <p>Bienvenido, ingresa tus credenciales para iniciar sesion</p>
+
+  <form action="" method="POST">
+    <ul>
+      <li>
+      <label for="name">Usuario:</label>
+      <input type="text" class="outlinenone" id="name" name="user_name" autocomplete="name" required/>
+      </li>
+            
+      <li>
+      <label for="control">Contraseña:</label>
+      <input type="text" class="outlinenone" id="control" name="user_control" required/>
+      </li>
+    </ul>
+    
+    <button type="submit">Iniciar Sesion</button>
+  </form>
+  
+  
+
+</main>
+</body>
+</html>
